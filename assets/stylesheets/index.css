@@ -1,8 +1,17 @@
 #wrapper {
-    background-image: url("../images/background.jpeg");
-    cursor: url('../images/cat-paw.png'), auto;
+  background-image: url("../images/background.jpeg");
+  cursor: url('../images/cat-paw.png'), auto;
 }
 
 a {
-    cursor: url('../images/cat-paw.png'), auto;
+  cursor: url('../images/cat-paw.png'), auto;
+}
+
+.secondary-info li {
+  list-style: url('../images/item-cat-paw.png');
+  list-style-type: none;
+}
+
+.secondary-info li::before {
+  content: none;
 }
